@@ -1,0 +1,26 @@
+.names{
+    font-size: 20px;
+}
+
+.number {
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.button{
+    margin-left: 30px;
+    cursor: pointer;
+    padding: 6px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.button:hover,
+.button:focus {
+    color: aliceblue;
+background-image: linear-gradient(
+    to top left,
+    blue,
+    red
+);
+}
